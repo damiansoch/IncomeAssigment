@@ -31,7 +31,7 @@ namespace IncomeAssigment
             double personTwoAnnual = (personTwoHourlyDouble * personTwoHoursInt) * 52;
 
             Console.WriteLine("Person 1 makes more money than Person 2 ");
-            Console.WriteLine(personOneAnnual > personTwoAnnual ? "true" : "false");
+            Console.WriteLine(personOneAnnual > personTwoAnnual ? true : false);
             Console.ReadLine();
 
         }
